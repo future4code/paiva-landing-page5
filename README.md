@@ -3,7 +3,7 @@
 
 # Alteração - Fabricia
 
-Criado as outras páginas com a mesma estrutura do index.html;
+Criada as outras páginas com a mesma estrutura do index.html;
 
 Alterado título conforme os links;
 
