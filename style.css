@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    /* inserir imagem do banner na url */
+    background: url();
+    width: 100%;
+    background-size: cover;
+}
+
+nav {
+    background-color: ;
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+}
