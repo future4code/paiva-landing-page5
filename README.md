@@ -1,6 +1,6 @@
 
 
-Projeto Grupo5 4Confort
+Projeto Grupo5 4Comfort
 
 O que funciona
 DESCREVA O QUE FUNCIONA NO SEU PROJETO
