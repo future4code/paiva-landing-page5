@@ -26,6 +26,10 @@ terminei a base do layout e comecei a estilização
 Criada as outras páginas com a mesma estrutura do index.html;
 Alterado título conforme os links;
 Inserido em HTML os links para abrir numa nova aba, conforme a solicitação da atividade;
+Estilizado o cabeçalho;
+Estilizado a logo;
+Estilizado o link do menu;
+Estilizado o banner e textos do banner.
 
 File Changes
 A img/4comfort-logo.png (0)
