@@ -94,7 +94,7 @@ nav {
 }
 .banner-texto-itens h2{
 font-size: 3em;
-margin-bottom: 20px;
+margin-bottom: 30px;
 text-transform: uppercase;
 text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
 
@@ -103,6 +103,10 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
 .banner-texto-itens p{
     font-size: 24px ;
       
+}
+
+@media screen and (max-width: 400px) {
+
 }
 
 /*main-content*/
@@ -189,6 +193,7 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
     text-decoration: none;
     text-transform: uppercase;
 }
+
 
 @media all and (max-width:414px){
     .top-bar{
