@@ -101,8 +101,41 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
 }
 
 .banner-text-itens p{
-    font-size: 24px ;
+    font-size: 24px;
       
+}
+
+.about {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 5% 0; 
+    
+    
+
+}
+
+footer {
+    background-color: #a8b4ae;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-media > a {
+    text-decoration: none;   
+}
+
+#social-media > a > img {
+    width: 8vh;
+    margin: 10px;    
 }
 
 @media screen and (max-width: 400px) {
