@@ -1,23 +1,112 @@
 * {
     margin: 0;
     padding: 0;
-
+    
 }
 
 .banner {
-    /* inserir imagem do banner na url */
-    background: url();
+    /* inserido imagem do banner na url */
+    background: url("img/backgroud_tenis.jpg");
     width: 100%;
-    background-size: cover;
+    background-size: cover;    /* Deixa a imagem centralizada e unica na vizualização */
+    
+        
 }
 
+/* inserido cor no header e usando flex */
 nav {
-    background-color: ;
+    background-color: #dae5e8; /*usando a cor da logo*/
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     width: 100%;
-    height: 40vh;
+    height: auto;  
+}
+/* Direcioanndo a logo e distanciando o menu da logo */
+#Logo {
+    flex:1;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    padding: 5px;  
+}
+
+/* MENU - Direcionando o MENU*/
+.menu {
+    -webkit-flex:3px;
+    -ms-flex:3px;
+    -webkit-box-flex: 3px;
+    flex:3px;
+}
+
+.menu ul{
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    list-style: none;
+    margin-top: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.menu ul li{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Alterando a cor do MENU, tamanho e tirando a linha do link*/
+.menu ul li a{
+    color: #2e3237; /*usando a cor da logo*/
+    font-size: 20px;
+    text-decoration: none;
     
 }
+/* Alterando a cor do MENU quando coloca o ponteiro do mouse em cima*/
+.menu a:hover{
+    color:gray;
+}
+
+/* Banner - Dimencionando a imagem*/
+.banner-texto{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    padding: 20% 0;
+    
+}
+
+/* Banner - Estilizando o texto*/
+.banner-texto-itens{
+    color:rgb(90, 87, 87);   
+    margin: auto;
+    text-align: center;
+    width: 50%;  
+    font-weight: bold;
+}
+.banner-texto-itens h2{
+font-size: 3em;
+margin-bottom: 20px;
+text-transform: uppercase;
+text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
+
+}
+
+.banner-texto-itens p{
+    font-size: 24px ;
+   
+   
+}
+
+
 
 
 
