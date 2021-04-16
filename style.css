@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     
@@ -101,8 +104,66 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
 }
 
 .banner-text-itens p{
-    font-size: 24px ;
+    font-size: 24px;
       
+}
+
+.about {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 1% 0; 
+        
+
+}
+
+#about { 
+    font-size: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 5vh;
+
+}
+
+
+
+.about > p {
+    padding: 2%;
+    text-align: justify;
+}
+
+footer {
+    background-color: #a8b4ae;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-media > a {
+    text-decoration: none;   
+}
+
+#social-media > a > img {
+    width: 8vh;
+    margin: 10px;    
 }
 
 @media screen and (max-width: 400px) {
