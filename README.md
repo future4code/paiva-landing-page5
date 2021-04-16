@@ -6,7 +6,7 @@ O que funciona
 DESCREVA O QUE FUNCIONA NO SEU PROJETO
 
 O que não funciona
-DESCREVA O QUE NÃO FUNCIONA NO SEU PROJETO
+Falta atualizr o Surge
 
 Link Surge
 abusive-bedroom.surge.sh
@@ -16,6 +16,7 @@ TIRE PRINTS DAS TELAS DO SEU SITE E COLE AQUI
 
 You can view, comment on, or merge this pull request online at:
 https://github.com/future4code/paiva-landing-page5/pull/1
+https://github.com/future4code/paiva-landing-page5/pull/3
 
 Commit Summary
 *Alteração Laura*
@@ -35,6 +36,7 @@ File Changes
 A img/4comfort-logo.png (0)
 A index.html (84)
 A style.css (61)
+
 Patch Links:
 https://github.com/future4code/paiva-landing-page5/pull/1.patch
 https://github.com/future4code/paiva-landing-page5/pull/1.diff
