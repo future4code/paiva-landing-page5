@@ -9,8 +9,9 @@
 
 .banner {
     /* inserido imagem do banner na url */
-    background: url("img/backgroud_tenis.jpg");
+    background: url("img/back3.jpg");
     width: 100%;
+    min-height: auto;
     background-size: cover;    /* Deixa a imagem centralizada e unica na vizualização */
     
         
@@ -192,7 +193,25 @@ footer {
      padding: 3%;
      text-align: center;
 }
-
+p{
+ font-size: 20px;   
+}
+#produtos{
+    font-size: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 /*contact*/
 
 .contact-items{
@@ -293,7 +312,7 @@ footer {
     flex-direction: column;
    }
 }
-@media all and (max-width:800px) {
+@media all and (max-width:1280px) {
     .top-bar{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
