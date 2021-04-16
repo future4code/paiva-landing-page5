@@ -75,7 +75,7 @@ nav {
 }
 
 /* Banner - Dimencionando a imagem*/
-.banner-texto{
+.banner-text{
     display: -webkit-box;
     display: -webkit-flex;
     display:-ms-flexbox;
@@ -85,14 +85,14 @@ nav {
 }
 
 /* Banner - Estilizando o texto*/
-.banner-texto-itens{
+.banner-text-itens{
     color:rgb(90, 87, 87);   
     margin: auto;
     text-align: center;
     width: 50%;  
     font-weight: bold;
 }
-.banner-texto-itens h2{
+.banner-text-itens h2{
 font-size: 3em;
 margin-bottom: 30px;
 text-transform: uppercase;
@@ -100,7 +100,7 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
 
 }
 
-.banner-texto-itens p{
+.banner-text-itens p{
     font-size: 24px ;
       
 }
