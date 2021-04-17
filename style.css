@@ -89,27 +89,26 @@ nav {
 }
 
 /* Banner - Estilizando o texto*/
-.banner-text-itens{
-    color:rgb(90, 87, 87);   
-    margin: auto;
-    text-align: center;
+.banner-text-items{
+    color:black;   
+    margin-left: 10px;
     width: 50%;  
     font-weight: bold;
 }
-.banner-text-itens h2{
-font-size: 3em;
+.banner-text-items h2{
+font-size: 4em;
 margin-bottom: 30px;
 text-transform: uppercase;
 text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
 
 }
 
-.banner-text-itens p{
-    font-size: 24px;
+.banner-text-items p{
+    font-size: 20px;  
       
 }
 
-.about {
+.about {    
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -119,8 +118,8 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
     -webkit-box-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    padding: 1% 0; 
-        
+    text-align:right;
+    padding: 2%;  
 
 }
 
@@ -139,11 +138,24 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 5vh;
+    margin-top:6vh;
 
 }
 
 
+.topo{
+  border-radius: 65px;
+  bottom: 14px;
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  right: 22px;
+  width: 40px;
+  background: url("img/setas-para-cima.png");
+  background-size: cover;
+  z-index: 3;
+      
+}
 
 .about > p {
     padding: 2%;
@@ -152,7 +164,7 @@ text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
 
 footer {
     background-color: #a8b4ae;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,10 +179,6 @@ footer {
     margin: 10px;    
 }
 
-@media screen and (max-width: 400px) {
-
-}
-
 /*main-content*/
 
 .main-content{
@@ -183,7 +191,7 @@ footer {
     -webkit-box-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    padding: 5% 0; 
+    padding: 1% 0; 
 }
 .main1{
     -webkit-box-flex: 1;
@@ -192,12 +200,14 @@ footer {
      flex: 1;
      padding: 3%;
      text-align: center;
+     
 }
 p{
  font-size: 20px;   
 }
-#produtos{
-    font-size: 60px;
+
+#produtos1{
+    font-size: 40px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -211,6 +221,8 @@ p{
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    padding-top: 5%;
+
 }
 /*contact*/
 
@@ -231,8 +243,7 @@ p{
 
 }
 .contact{
-    background: url(img/);
-    padding: 80px 0;
+    padding: 40px 0;
     position: relative;
     z-index: 1;
 }
@@ -264,7 +275,7 @@ p{
     width: 50%;
 }
 .contact-items a{
-    background: #da4b29;
+    background: #181717;
     color: #fff;
     display: block;
     font-size: 20px;
@@ -275,7 +286,7 @@ p{
 }
 
 
-@media all and (max-width:414px){
+@media all and (max-width:375px){
     .top-bar{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -283,9 +294,11 @@ p{
         -ms-flex-direction: column;
         flex-direction: column;
         text-align: center;
+        
     }
 .logo{
     padding: 18px 0 0;
+    
 }    
 .menu ul{
     -webkit-box-orient: vertical;
@@ -294,6 +307,7 @@ p{
     -ms-flex-direction: column;
     flex-direction: column;
     margin-top: 0;
+    
 }
 .menu ul li{
     padding: 5px;
@@ -310,7 +324,11 @@ p{
     -webkit-flex-direction:column;
     -ms-flex-direction: column;
     flex-direction: column;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
    }
+
 }
 @media all and (max-width:1280px) {
     .top-bar{
@@ -347,5 +365,6 @@ p{
     -webkit-flex-direction:column;
     -ms-flex-direction: column;
     flex-direction: column;
+    
    }
 }
