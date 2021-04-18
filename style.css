@@ -43,7 +43,7 @@ nav {
     -webkit-box-flex: 3px;
     flex:3px;
 }
-
+/* MENU - Direcionando o MENU*/
 .menu ul{
     display: flex;
     display: -webkit-box;
