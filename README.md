@@ -1,7 +1,7 @@
 
 <h1>Landingpage 4Comfort 💻<h1>
 
-abundant-example.surge.sh
+http://abundant-example.surge.sh/index.html
 
 
 <h2>4Comfort</h2>
