@@ -1,7 +1,7 @@
 
 <h1>Landingpage 4Comfort 💻<h1>
 
-http://ready-potato.surge.sh/
+http://ordinary-children.surge.sh/index.html
 
 
 <h2>4Comfort</h2>
