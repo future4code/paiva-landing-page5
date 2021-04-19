@@ -1,332 +1,317 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
 .banner {
-    /* inserido imagem do banner na url */
-    background: url("img/backgroud_tenis.jpg");
-    width: 100%;
-    background-size: cover;    /* Deixa a imagem centralizada e unica na vizualização */
-    
-        
+  /* inserido imagem do banner na url */
+  background: url("img/back3.jpg");
+  width: 100%;
+  min-height: auto;
+  background-size: cover; /* Deixa a imagem centralizada e unica na vizualização */
 }
-
 /* inserido cor no header e usando flex */
 nav {
-    background-color: #dae5e8; /*usando a cor da logo*/
-    display: flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    width: 100%;
-    height: auto;  
+  background-color: #dae5e8; /*usando a cor da logo*/
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  width: 100%;
+  height: auto;
 }
 /* Direcioanndo a logo e distanciando o menu da logo */
 #Logo {
-    flex:1;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    padding: 5px;  
+  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  padding: 5px;
 }
-
 /* MENU - Direcionando o MENU*/
 .menu {
-    -webkit-flex:3px;
-    -ms-flex:3px;
-    -webkit-box-flex: 3px;
-    flex:3px;
+  -webkit-flex: 3px;
+  -ms-flex: 3px;
+  -webkit-box-flex: 3px;
+  flex: 3px;
 }
-
-.menu ul{
-    display: flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    list-style: none;
-    margin-top: 30px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
+.menu ul {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  list-style: none;
+  margin-top: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
-
-.menu ul li{
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: center;
-    padding-top: 100px;
+/* estilizacao do menu. */
+.menu ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  padding-top: 100px;
 }
-
 /* Alterando a cor do MENU, tamanho e tirando a linha do link*/
-.menu ul li a{
-    color: #2e3237; /*usando a cor da logo*/
-    font-size: 20px;
-    text-decoration: none;
-    
+.menu ul li a {
+  color: #2e3237; /*usando a cor da logo*/
+  font-size: 20px;
+  text-decoration: none;
 }
 /* Alterando a cor do MENU quando coloca o ponteiro do mouse em cima*/
-.menu a:hover{
-    color:gray;
+.menu a:hover {
+  color: gray;
 }
-
 /* Banner - Dimencionando a imagem*/
-.banner-text{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    padding: 20% 0;
-    
+.banner-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20% 0;
 }
-
 /* Banner - Estilizando o texto*/
-.banner-text-itens{
-    color:rgb(90, 87, 87);   
-    margin: auto;
-    text-align: center;
-    width: 50%;  
-    font-weight: bold;
+.banner-text-items {
+  color: black;
+  margin-left: 10px;
+  width: 50%;
+  font-weight: bold;
 }
-.banner-text-itens h2{
-font-size: 3em;
-margin-bottom: 30px;
-text-transform: uppercase;
-text-shadow: 0.1em 0.1em 0.4em black;/* Sombra esfumaçada no texto */
-
+.banner-text-items h2 {
+  font-size: 4em;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-shadow: 0.1em 0.1em 0.4em black; /* Sombra esfumaçada no texto */
 }
-
-.banner-text-itens p{
-    font-size: 24px;
-      
+/* tamanho dos textos do texto 4comfort */
+.banner-text-items p {
+  font-size: 20px;
 }
-
+/* estilizacao do sobre nos. */
 .about {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-box-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding: 1% 0; 
-        
-
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: right;
+  padding: 2%;
 }
-
-#about { 
-    font-size: 40px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-top: 5vh;
-
+/* estilizacao da palavra sobre nos . */
+#about {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 6vh;
 }
-
-
-
+/* seta para ao inicio . */
+.topo {
+  border-radius: 65px;
+  bottom: 14px;
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  right: 22px;
+  width: 40px;
+  background: url("img/setas-para-cima.png");
+  background-size: cover;
+  z-index: 3;
+}
+/* estilizacao da nargem sobre nos . */
 .about > p {
-    padding: 2%;
-    text-align: justify;
+  padding: 2%;
+  text-align: justify;
 }
-
+/* estilizacao do footer. */
 footer {
-    background-color: #a8b4ae;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #a8b4ae;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+/* remocao do texto dos icones social media . */
 #social-media > a {
-    text-decoration: none;   
+  text-decoration: none;
 }
-
+/* insercao de imgs icones social media . */
 #social-media > a > img {
-    width: 8vh;
-    margin: 10px;    
+  width: 8vh;
+  margin: 10px;
 }
-
-@media screen and (max-width: 400px) {
-
+/*estilizacao do main-content*/
+.main-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding: 1% 0;
 }
-
-/*main-content*/
-
-.main-content{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-box-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding: 5% 0; 
+/*estilizacao dos textos produtos*/
+.main1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 3%;
+  text-align: center;
 }
-.main1{
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-     flex: 1;
-     padding: 3%;
-     text-align: center;
+/*tamanho dos textos produtos*/
+p {
+  font-size: 20px;
 }
-
-/*contact*/
-
-.contact-items{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+/*estilizacao da palavra produtos*/
+#produtos1 {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 5%;
+}
+/* estilizacao dos campos de contato*/
+.contact-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+/* paremetrizacao dos campos de contato e botao enviar*/
+.contact {
+  padding: 40px 0;
+  position: relative;
+  z-index: 1;
+}
+/* seletor que leva a home apos clicar em enviar */
+.contact::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+/* estilizacao do h2*/
+.contact-items h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+/* paremetrizacao dos campos input do contato*/
+.contact-items input[type="text"] {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 50%;
+}
+/* paremetrizacao dos campos de txto no entre em contato*/
+.contact-items textarea {
+  border-radius: 10px;
+  height: 150px;
+  padding: 15px;
+  width: 50%;
+}
+/* paremetrizacao do botao enviar*/
+.contact-items a {
+  background: #181717;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 15px 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* responsividade para iphone 6/7/8*/
+@media all and (max-width: 375px) {
+  .top-bar {
+    /* redimensionamento  do logotipo e menu*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-
-}
-.contact{
-    background: url(img/);
-    padding: 80px 0;
-    position: relative;
-    z-index: 1;
-}
-.contact::before{
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    left: 0;
-    background:rgba(0,0,0,0.5);
-    z-index: -1;
-}
-.contact-items h2 {
-    color: #fff;
-    font-size: 40px;
-    margin-bottom: 18px;
-}
-.contact-items input[type="text"]{
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 15px;
-    width: 50%;
-}
-.contact-items textarea {
-    border-radius: 10px;
-    height: 150px;
-    padding: 15px;
-    width: 50%;
-}
-.contact-items a{
-    background: #da4b29;
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    margin-top: 25px;
-    padding: 15px 80px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-@media all and (max-width:414px){
-    .top-bar{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        text-align: center;
-    }
-.logo{
+    text-align: center;
+  }
+  .logo {
+    /* margem do logotipo */
     padding: 18px 0 0;
-}    
-.menu ul{
+  }
+  .menu ul {
+    /* estilizacao do menu. */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction:column;
+    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     margin-top: 0;
-}
-.menu ul li{
+  }
+  .menu ul li {
     padding: 5px;
-}
-.banner-text-items{
+  }
+  .banner-text-items {
+    /* redimensionamento do texto completo 4Comfort */
     width: 100%;
-}
-.banner-text-items h2 {
+  }
+  .banner-text-items h2 {
+    /* redimensionamento das fontes */
     font-size: 1.5em;
-}
-.main-content{
+  }
+  .main-content {
+    /* redimensionamento  dos produtos*/
     -webkit-box-direction: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction:column;
+    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-   }
-}
-@media all and (max-width:800px) {
-    .top-bar{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        text-align: center;
-    }
-.logo{
-    padding: 18px 0 0;
-}    
-.menu ul{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction:column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-top: 0;
-}
-.menu ul li{
-    padding: 5px;
-}
-.banner-text-items{
-    width: 100%;
-}
-.banner-text-items h2 {
-    font-size: 1.5em;
-}
-.main-content{
-    -webkit-box-direction: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction:column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-   }
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
 }
