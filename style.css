@@ -270,8 +270,8 @@ p {
 }
 /* responsividade para iphone 6/7/8*/
 @media all and (max-width: 375px) {
+  /* redimensionamento  do logotipo e menu*/
   .top-bar {
-    /* redimensionamento  do logotipo e menu*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -279,12 +279,12 @@ p {
     flex-direction: column;
     text-align: center;
   }
+  /* margem do logotipo */
   .logo {
-    /* margem do logotipo */
     padding: 18px 0 0;
   }
+   /* estilizacao do menu. */
   .menu ul {
-    /* estilizacao do menu. */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -295,16 +295,17 @@ p {
   .menu ul li {
     padding: 5px;
   }
+  /* redimensionamento do texto completo 4Comfort */
   .banner-text-items {
-    /* redimensionamento do texto completo 4Comfort */
     width: 100%;
   }
+  /* redimensionamento das fontes */
   .banner-text-items h2 {
-    /* redimensionamento das fontes */
+    
     font-size: 1.5em;
   }
+  /* redimensionamento  dos produtos*/
   .main-content {
-    /* redimensionamento  dos produtos*/
     -webkit-box-direction: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
